@@ -16,7 +16,7 @@ def sendEmail(to ,content):
     server =smtplib.SMTP("smtp.gmail.com",587)
     server.ehlo()
     server.starttls()
-    server.login('rrpatil2701@gmail.com','Lunatic@2701')
+    server.login('rrpatil2701@gmail.com','********')
     server.sendmail('rrpatil2701@gmail.com',to,content)
     server.close()
 def speak(audio):
